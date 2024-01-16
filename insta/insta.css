@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+body {
+    background-color: #fafafacc;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.image {
+    display: grid;
+    justify-content: right;
+    margin-top: 15px;
+}
+
+.logo {
+    margin-top: 10px;
+}
+
+.login {
+    display: grid;
+    justify-content: left;
+    text-align: center;
+    padding: 20px;
+}
+
+.login-up {
+    height: 330px;
+    width: 230px;
+    border: 1px solid #E5E5E5;
+    margin: 5px;
+    background-color: white;
+}
+
+.login-up-1 {
+    width: 250px;
+    display: grid;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.login-down {
+    border: 1px solid #E5E5E5;
+    margin: 5px;
+    margin-bottom: 15px;
+    height: 40px;
+    background-color: white;
+}
+
+.login-down-1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-login {
+    background-color: #B2DFFC;
+    color: white;
+    width: 250px;
+    height: 25px;
+    border: 3px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+.facebook {
+    color: #3B5387;
+    margin-bottom: 10px;
+
+}
+
+.join {
+    color: #57aef1;
+}
+
+.hr {
+    padding: 10px;
+    margin-bottom: 5px;
+
+}
+
+.download {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.logo-ios {
+    display: grid;
+
+}
+
+.logo-android {
+    display: grid;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+.footer-left {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(11, auto);
+    grid-column-gap: 15px;
+    padding: 60px;
+    color: #3B5387;
+}
+
+.footer-right {
+    display: grid;
+    padding: 60px;
+    color: #5f5f5f;
+}
+
+input {
+    width: 240px;
+    height: 25px;
+    font-size: 12px;
+    margin-top: 4px;
+    border: 1px solid #E5E5E5;
+}
+
+.hr {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+.or {
+    color: #bdbcbc;
+}
+
+hr {
+    background: #bdbcbc;
+    height: 1px;
+    border: 0;
+}

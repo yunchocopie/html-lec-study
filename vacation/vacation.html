@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vacation</title>
+
+    <style>
+        .main {
+            display: grid;
+            grid-template-columns: auto auto;
+            position: relative;
+        }
+
+        .icon-top {
+            display: grid;
+            position: absolute;
+            grid-template-columns: auto auto auto;
+            width: 100%;
+        }
+
+        .icon-top-left {
+            display: grid;
+            padding-left: 20px;
+            justify-content: left;
+        }
+
+        .icon-top-center {
+            display: grid;
+            list-style-type: none;
+            grid-template-columns: repeat(4, auto);
+            grid-column-gap: 15px;
+            margin-top: 25px;
+            font-weight: bold;
+            justify-content: center;
+
+        }
+
+        .icon-top-right {
+            display: grid;
+            padding-right: 20px;
+            margin-top: 22px;
+            justify-content: right;
+            position: relative;
+            color: #726b6b;
+        }
+
+        .icon-search {
+            display: grid;
+            position: absolute;
+            right: 55px;
+        }
+
+
+        .photo {
+            display: grid;
+            background-image: url('vacation.jpg');
+            background-size: cover;
+            height: 100vh;
+        }
+
+        .color {
+            display: grid;
+
+            grid-template-rows: 10fr 1fr;
+        }
+
+        .color-top {
+            display: grid;
+            background-color: #F8ECEB;
+        }
+
+        .color-bottom {
+            display: grid;
+            background-color: white;
+            position: relative;
+        }
+
+
+
+        .icon-bottom {
+            display: grid;
+            position: absolute;
+            grid-template-columns: auto auto;
+            justify-content: space-between;
+            width: 100%;
+            padding: 15px;
+            margin-top: 10px;
+        }
+
+        .icon-bottom-left {
+            color: #6d6b6b;
+        }
+
+        .icon-bottom-right {
+            color: #6d6b6b;
+            margin-right: 25px;
+        }
+
+        .letter-parent {
+            display: inline-block;
+            position: relative;
+        }
+
+        .letter {
+            display: inline-block;
+            position: absolute;
+            left: 90px;
+            top: 100px;
+            font-size: 80px;
+        }
+
+        .zuzu-parent {
+            display: inline-block;
+            position: relative;
+        }
+
+        .zuzu {
+            display: inline-block;
+            position: absolute;
+            left: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="icon-top">
+            <div class="icon-top-left">
+                <h1>zuzu.</h1>
+            </div>
+            <ul class="icon-top-center">
+                <li>about</li>
+                <li>collections</li>
+                <li>videos</li>
+                <li>contact</li>
+            </ul>
+            <div class="icon-top-right">
+                <small>ENG</small>
+                <i class="fa-solid fa-magnifying-glass icon-search"></i>
+            </div>
+        </div>
+        <div class="photo"></div>
+        <div class="color">
+            <div class="color-top">
+                <div class="letter-parent">
+                    <h1 class="letter">
+                        New <br>
+                        collection
+                    </h1>
+                </div>
+            </div>
+
+            <div class="color-bottom">
+                <div class="icon-bottom">
+                    <div class="icon-bottom-left">
+                        <b>
+                            <i class="fa-solid fa-chevron-left"></i> <i class="fa-solid fa-chevron-right"></i>
+                        </b>
+                    </div>
+                    <div class="icon-bottom-right">
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
