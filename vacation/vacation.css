@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+.main {
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+}
+
+.icon-top {
+    display: grid;
+    position: absolute;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+}
+
+.icon-top-left {
+    display: grid;
+    padding-left: 20px;
+    justify-content: left;
+}
+
+.icon-top-center {
+    display: grid;
+    list-style-type: none;
+    grid-template-columns: repeat(4, auto);
+    grid-column-gap: 15px;
+    margin-top: 25px;
+    font-weight: bold;
+    justify-content: center;
+
+}
+
+.icon-top-right {
+    display: grid;
+    padding-right: 20px;
+    margin-top: 22px;
+    justify-content: right;
+    position: relative;
+    color: #726b6b;
+}
+
+.icon-search {
+    display: grid;
+    position: absolute;
+    right: 55px;
+}
+
+
+.photo {
+    display: grid;
+    background-image: url('vacation.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.color {
+    display: grid;
+
+    grid-template-rows: 10fr 1fr;
+}
+
+.color-top {
+    display: grid;
+    background-color: #F8ECEB;
+}
+
+.color-bottom {
+    display: grid;
+    background-color: white;
+    position: relative;
+}
+
+
+
+.icon-bottom {
+    display: grid;
+    position: absolute;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.icon-bottom-left {
+    color: #6d6b6b;
+}
+
+.icon-bottom-right {
+    color: #6d6b6b;
+    margin-right: 25px;
+}
+
+.letter-parent {
+    display: inline-block;
+    position: relative;
+}
+
+.letter {
+    display: inline-block;
+    position: absolute;
+    left: 90px;
+    top: 100px;
+    font-size: 80px;
+}
+
+.zuzu-parent {
+    display: inline-block;
+    position: relative;
+}
+
+.zuzu {
+    display: inline-block;
+    position: absolute;
+    left: 25px;
+}
